@@ -56,9 +56,29 @@ git commit -m '
 */
     border: 1px solid red;
 }
-.contenedorDivs{
+/*con los frid columns y rows puedo generarr desde css columnas y tablas
+*/
+.contenedorDivSGrid{
     border: 2px solid green;
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 150px 150px 300px;
+}
+/*con estos contenedores podemos centrar y organizar todo nuestro contenido al principio es un poco mas complejo pero despues e mejor
+*/
+.contenedorDivFlex{
+    border: 2px solid rgb(115, 0, 128);
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 150px 150px 300px;
 }
 .divTest{
     border: 1px solid blue;
+    display:flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
 }
