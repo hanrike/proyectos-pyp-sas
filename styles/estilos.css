@@ -40,7 +40,25 @@ las clases son la mejor manera de trabajar
 }
 /*puedo cambiar las propiedades como tamaño de las imagen insertadas hecha conserva la relacion de aspecto 
 pero se puede cambiar las dos propieddades altura y ancho
+git commit -m '
 */
 .imagenPequeña{
     height: 100px;
+}
+/*Con estos contenerdores realizo las margenes y distancias que requiero para mi html 
+*/
+.contenedorconMargen{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    /*este es como el print de python aqui sabemos como se estan viendo los bordes 
+*/
+    border: 1px solid red;
+}
+.contenedorDivs{
+    border: 2px solid green;
+}
+.divTest{
+    border: 1px solid blue;
 }
