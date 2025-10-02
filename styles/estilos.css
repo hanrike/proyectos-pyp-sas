@@ -1,4 +1,5 @@
-
+/*aqui se le aplica el css a un boton un  parrafo etc es de tipo mas general y se aplica a todo
+*/
 p {
     color:blue
 }
@@ -9,15 +10,37 @@ h3{
 a{
     background-color: aquamarine;
 }
-
+/*el numeral es para tipo id
+*/
 #parrafo3{
     color: green;
 }
-
-.parrafoGris{
+/*asi son las clases en css pero solo quiere decir que tpo de funcion cumple no es clase objeto
+las clases son la mejor manera de trabajar
+*/
+.textoGris{
     color: gray;
 }
 
-.parrafoNegro{
-    color: black;
+.textoRojo{
+    color: red;
+}
+
+.fondoAzul{
+    background-color: blue;
+}
+
+.fondoRosado{
+    background-color:pink;
+}
+.textoGrandeNegrita{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*puedo cambiar las propiedades como tamaño de las imagen insertadas hecha conserva la relacion de aspecto 
+pero se puede cambiar las dos propieddades altura y ancho
+*/
+.imagenPequeña{
+    height: 100px;
 }
