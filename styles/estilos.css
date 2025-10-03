@@ -38,3 +38,20 @@ pase por el*/
     cursor: pointer;
     transform: scale(1.1);
 }
+
+.secondaryButton{
+    background-color: rgb(21, 140, 243);
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 2px 2px;
+}
+/*agrego una clase modificadora se logra con dos puntos uno de los modificadores mas utilizados es hover .
+en este caso modifico el cursor que se vuelva manito tambien el efecto transform ppara escalar el boton cuando se 
+pase por el*/
+.secondaryButton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
